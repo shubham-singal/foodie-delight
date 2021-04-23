@@ -2,6 +2,7 @@ import React from 'react';
 import MemberListComponent from "./MemberListComponent";
 import RecentReviewsComponent from "./RecentReviewsComponent";
 import EventPillsComponent from "./EventPillsComponent";
+import "./HomePage.css";
 
 class HomePageComponent extends React.Component {
     componentDidMount() {
@@ -26,7 +27,7 @@ class HomePageComponent extends React.Component {
                                 style={{color: 'white', fontFamily: 'cursive', fontWeight: '800'}}>Foodie's Delight</h1>
                             <hr/>
                             <a href="/search" className="btn btn-success pl-2" style={{color: 'white'}}>
-                                Find Businesses<i className="fa fa-search ml-2"/></a>
+                                Search for restaurants<i className="fa fa-search ml-2"/></a>
                         </div>
                     </div>
                 </div>

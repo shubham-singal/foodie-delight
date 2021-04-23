@@ -1,5 +1,6 @@
 import React from 'react';
-import {getMembers} from "../../service/UserService"
+import {getMembers} from "../../service/UserService";
+import "./MemberList.css";
 
 class MemberListComponent extends React.Component {
     componentDidMount() {
@@ -24,7 +25,7 @@ class MemberListComponent extends React.Component {
     render() {
         return(
             <div className="mt-1 rounded">
-                <h4 style={{fontFamily: 'Oswald', fontWeight: '500'}}>New Users</h4>
+                <h4 class="NewUsers">Users who have recently joined us:</h4>
                 <ul className="list-group mx-3">
                 {
                     this.state.users && this.state.users.map((user, i) =>

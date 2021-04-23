@@ -1,5 +1,6 @@
 import React from 'react';
 import {getRecentEvents} from "../../service/EventService";
+import "./Reviews.css";
 
 class EventPillsComponent extends React.Component {
     componentDidMount() {
@@ -18,7 +19,7 @@ class EventPillsComponent extends React.Component {
     render(){
         return (
             <div className="container mt-2">
-                <h4 style={{color: '#f05637', fontFamily: 'cursive', fontWeight: '500'}}>Recent Reviews</h4>
+                <h4 class="Reviews">Recently Posted Reviews</h4>
                 <hr/>
                 <div className="row">
                     {

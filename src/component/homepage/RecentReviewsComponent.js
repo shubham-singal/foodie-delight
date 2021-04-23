@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import {getRecentReviews} from '../../service/ReviewService'
+import "./Reviews.css";
 
 class RecentReviewsComponent extends React.Component {
     componentDidMount() {
@@ -29,7 +30,7 @@ class RecentReviewsComponent extends React.Component {
     render() {
         return (
             <div className="container mt-2 mb-5">
-                <h4 style={{color: '#f05637', fontFamily: 'Oswald', fontWeight: '500'}}>Recent Reviews</h4>
+                <h4 class="Reviews">Your Reviews</h4>
                 <hr/>
                 <div className="row">
                     {

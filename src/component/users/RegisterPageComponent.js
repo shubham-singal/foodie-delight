@@ -1,5 +1,6 @@
 import React from 'react';
 import {register} from "../../service/UserService";
+import "./RegisterPage.css";
 
 class RegisterPageComponent extends React.Component {
     state = {
@@ -66,7 +67,7 @@ class RegisterPageComponent extends React.Component {
                 <br/>
                 {this.state.user.validatePassword !== '' &&
                 this.state.user.password !== this.state.user.validatePassword &&
-                <p>
+                <p class="error">
                     Password doesnt match!
                 </p>
                 }
@@ -126,7 +127,7 @@ class RegisterPageComponent extends React.Component {
                                 if (this.state.user.password === this.state.user.validatePassword) {
                                     this.register(this.state.user)
                                 }
-                            }}>Register
+                            }}>Register for Foodie Delight
                     </button>
                 </div>
             </div>

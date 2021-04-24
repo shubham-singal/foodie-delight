@@ -67,7 +67,7 @@ class RegisterPageComponent extends React.Component {
                 {this.state.user.validatePassword !== '' &&
                 this.state.user.password !== this.state.user.validatePassword &&
                 <p>
-                    Please verify password
+                    Password doesnt match!
                 </p>
                 }
                 <input value={this.state.user.email} placeholder="Email" type="email" className="form-control"

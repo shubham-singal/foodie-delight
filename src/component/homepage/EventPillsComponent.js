@@ -19,7 +19,7 @@ class EventPillsComponent extends React.Component {
     render(){
         return (
             <div className="container mt-2">
-                <h4 class="Reviews">Recently Posted Reviews</h4>
+                <h4 class="Reviews">Reviews</h4>
                 <hr/>
                 <div className="row">
                     {

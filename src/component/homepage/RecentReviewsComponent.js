@@ -30,7 +30,7 @@ class RecentReviewsComponent extends React.Component {
     render() {
         return (
             <div className="container mt-2 mb-5">
-                <h4 class="Reviews">Your Reviews</h4>
+                <h4 class="Reviews">Reviews</h4>
                 <hr/>
                 <div className="row">
                     {

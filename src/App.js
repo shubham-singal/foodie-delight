@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import MiniYelpContainer from "./containers/MiniYelpContainer";
+import FoodieDelightContainer from "./containers/FoodieDelightContainer";
 
 function App() {
   return (
-      <MiniYelpContainer/>
+      <FoodieDelightContainer/>
   );
 }
 

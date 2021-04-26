@@ -15,4 +15,4 @@ export const REVIEWS_API_URL = "http://localhost:8080/api/reviews"
 export const USERS_REVIEWS_API_URL = (userId) => `http://localhost:8080/api/users/${userId}/reviews`
 export const BUSINESSES_REVIEWS_API_URL = (businessId) => `http://localhost:8080/api/businesses/${businessId}/reviews`
 
-localhost:8080
+// localhost:8080

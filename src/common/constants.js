@@ -8,12 +8,12 @@ export const PUBLIC_SERVER_URL = "https://cors-anywhere.herokuapp.com/http://api
 // export const BUSINESSES_REVIEWS_API_URL = (businessId) => `https://foodie-delight-server.herokuapp.com/api/businesses/${businessId}/reviews`
 
 
-export const HEROKU_SERVER_URL = "https://localhost:8080"
-export const BUSINESSES_API_URL = "https://localhost:8080/api/businesses"
-export const OWNERS_BUSINESSES_API_URL = (ownerId) => `https://localhost:8080/api/owners/${ownerId}/businesses`
-export const REVIEWS_API_URL = "https://localhost:8080/api/reviews"
-export const USERS_REVIEWS_API_URL = (userId) => `https://localhost:8080/api/users/${userId}/reviews`
-export const BUSINESSES_REVIEWS_API_URL = (businessId) => `https://localhost:8080/api/businesses/${businessId}/reviews`
+export const HEROKU_SERVER_URL = "http://localhost:8080"
+export const BUSINESSES_API_URL = "http://localhost:8080/api/businesses"
+export const OWNERS_BUSINESSES_API_URL = (ownerId) => `http://localhost:8080/api/owners/${ownerId}/businesses`
+export const REVIEWS_API_URL = "http://localhost:8080/api/reviews"
+export const USERS_REVIEWS_API_URL = (userId) => `http://localhost:8080/api/users/${userId}/reviews`
+export const BUSINESSES_REVIEWS_API_URL = (businessId) => `http://localhost:8080/api/businesses/${businessId}/reviews`
 
 
 // export const HEROKU_SERVER_URL = "https://foodie-delight-server.herokuapp.com/"

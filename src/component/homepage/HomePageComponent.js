@@ -25,6 +25,7 @@ class HomePageComponent extends React.Component {
                         <div className="col-lg-12">
                             <h1 className="text-center"
                                 style={{color: 'white', fontFamily: 'cursive', fontWeight: '800'}}>Foodie's Delight</h1>
+                                <h4 class="details">Search and Review restaurants near you!</h4>
                             <hr/>
                             <a href="/search" className="btn btn-success pl-2" style={{color: 'white'}}>
                                 Search for restaurants<i className="fa fa-search ml-2"/></a>
